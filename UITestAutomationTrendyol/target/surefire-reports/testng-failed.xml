@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Free CRM Application With Allure Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.crm.qa.ExtendReportListener.ExtendReporterNG"/>
+    <listener class-name="com.crm.qa.ExtendReportListener.TestAllureListener"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Free CRM App Test Cases(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <methods>
+          <include name="verifyCorrectUserNameTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="clickOnContactsLinkTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Free CRM App Test Cases(failed) -->
+</suite> <!-- Failed suite [Free CRM Application With Allure Test Automation Test Suite] -->

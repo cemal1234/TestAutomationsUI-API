@@ -1,0 +1,18 @@
+<suite name="UI Test Automation Trendyol Test Suite">
+
+    <listeners>
+        <listener class-name="com.crm.qa.ExtendReportListener.ExtendReporterNG" />
+        <listener class-name="com.crm.qa.ExtendReportListener.TestAllureListener"/>
+    </listeners>
+
+    <test name="UI Test Automation Trendyol">
+        <classes>
+            <class name="com.crm.qa.testcases.LoginPageTest"/>
+            <class name="com.crm.qa.testcases.GamingPCTest"/>
+            <class name="com.crm.qa.testcases.ShirtSearchTest"/>
+            <class name="com.crm.qa.testcases.TabsAndProductControlTest"/>
+
+        </classes>
+    </test>
+
+</suite>
