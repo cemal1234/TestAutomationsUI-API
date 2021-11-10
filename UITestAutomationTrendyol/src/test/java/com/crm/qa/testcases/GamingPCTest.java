@@ -46,7 +46,7 @@ public class GamingPCTest extends TestBase {
         gamingPC.pricesFieldSelect();
     }
 
-    @Test(priority = 3,description = "Min and Max prices are entered")
+    @Test(priority = 3,description = "The selected product is added to the cart")
     @Severity(SeverityLevel.CRITICAL)
     public void addToCartTest(){
         gamingPC.addToCart();
